@@ -1,0 +1,16 @@
+/*for mobile devices*/
+.NavigationItems{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;/*align items next to each other*/
+    flex-flow: column; /*those buttons are placed in column*/
+    align-items: center;
+    height: 100%;
+}
+/*for bigger devices*/
+@media (min-width: 500px){
+    .NavigationItems{
+        flex-flow: row; /*those buttons are placed in row*/
+    }
+}
